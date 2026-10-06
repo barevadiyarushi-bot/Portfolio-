@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rushi Barevadiya - AI Image Creator, Image Editor and Video Editor Portfolio">
+<title>Rushi Barevadiya | Creative Portfolio</title>
+<style>
+:root{
+  --bg:#070b14; --card:#101725; --card2:#0c1220; --text:#eef3ff;
+  --muted:#aab5ca; --accent:#4da3ff; --accent2:#8b5cf6;
+  --line:rgba(255,255,255,.09); --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 80% 10%,rgba(77,163,255,.14),transparent 30%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(92%,var(--max));margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navin{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent)}
+.links{display:flex;gap:25px;font-size:14px;color:var(--muted)}.links a:hover{color:white}
+.hero{padding:105px 0 90px;display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:center}
+.kicker{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(44px,7vw,76px);line-height:1.02;margin:15px 0 18px}
+.hero h1 span{background:linear-gradient(90deg,#fff,#67b7ff,#a78bfa);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:680px;color:var(--muted);font-size:18px}
+.buttons{display:flex;gap:13px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 19px;border-radius:10px;border:1px solid var(--line);font-weight:700;font-size:14px}
+.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));border:0}.secondary{background:var(--card)}
+.profile{height:330px;border-radius:28px;border:1px solid var(--line);background:linear-gradient(145deg,#17243a,#0c1220);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.profile:before{content:"AI";font-size:170px;font-weight:900;color:rgba(255,255,255,.035);position:absolute}
+.avatar{width:150px;height:150px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));font-size:42px;font-weight:900;box-shadow:0 20px 60px rgba(77,163,255,.25)}
+section{padding:75px 0}.section-title{font-size:34px;margin-bottom:10px}.section-sub{color:var(--muted);max-width:700px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:18px;padding:25px}
+.card h3{margin-bottom:8px}.card p{color:var(--muted);font-size:14px}
+.icon{font-size:28px;margin-bottom:15px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:9px 13px;background:var(--card);border:1px solid var(--line);border-radius:999px;color:#cbd6ea;font-size:13px}
+.timeline{border-left:2px solid rgba(77,163,255,.45);padding-left:25px}.timeline-item{margin-bottom:30px;position:relative}.timeline-item:before{content:"";position:absolute;left:-33px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(77,163,255,.1)}.date{font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase}.timeline h3{margin:5px 0}.timeline p,.timeline li{color:var(--muted);font-size:14px}.timeline ul{padding-left:18px;margin-top:8px}
+.project{min-height:230px;display:flex;flex-direction:column;justify-content:space-between}.tag{display:inline-block;color:#8bc7ff;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+.contactbox{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-item{padding:22px;background:var(--card);border:1px solid var(--line);border-radius:16px}.contact-item small{display:block;color:var(--muted);margin-bottom:4px}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:70px}.profile{height:250px}.grid{grid-template-columns:1fr}.contactbox{grid-template-columns:1fr}.links{display:none}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container navin">
+    <a class="logo" href="#home">Rushi<span>.</span></a>
+    <div class="links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="home">
+<section class="hero container">
+  <div>
+    <div class="kicker">AI Image Creator • Image Editor • Video Editor</div>
+    <h1>Turning ideas into <span>visual experiences.</span></h1>
+    <p>I’m Rushi Barevadiya, a creative visual professional focused on AI image generation, Photoshop editing and video production with DaVinci Resolve.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#projects">View My Work</a>
+      <a class="btn secondary" href="mailto:barevadiyarushi@gmail.com">Contact Me</a>
+    </div>
+  </div>
+  <div class="profile"><div class="avatar">RB</div></div>
+</section>
+
+<section id="about">
+<div class="container">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">Creative and detail-oriented visual creator with 1.5 years of practical experience in the Audio/Video Department at BAPS Swaminarayan Chhatralay, Bhavnagar.</p>
+  <div class="grid">
+    <div class="card"><div class="icon">✦</div><h3>AI Image Creation</h3><p>Creating original visual concepts with AI tools, creative prompting and image enhancement.</p></div>
+    <div class="card"><div class="icon">◈</div><h3>Photoshop Editing</h3><p>Photo retouching, compositing, background work, color correction and professional creative design.</p></div>
+    <div class="card"><div class="icon">▶</div><h3>Video Editing</h3><p>Event and promotional video editing using DaVinci Resolve with transitions, audio and color work.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+  <h2 class="section-title">Skills & Tools</h2>
+  <p class="section-sub">A combination of creative design skills and modern AI-assisted production tools.</p>
+  <div class="skills">
+    <span class="skill">AI Image Generation</span><span class="skill">Creative Prompting</span><span class="skill">Adobe Photoshop</span>
+    <span class="skill">Photo Retouching</span><span class="skill">Background Removal</span><span class="skill">Image Compositing</span>
+    <span class="skill">Color Correction</span><span class="skill">DaVinci Resolve</span><span class="skill">Video Editing</span>
+    <span class="skill">Color Grading</span><span class="skill">Poster Design</span><span class="skill">Banner Design</span>
+    <span class="skill">Social Media Creatives</span><span class="skill">Visual Storytelling</span>
+  </div>
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+  <h2 class="section-title">Experience</h2>
+  <p class="section-sub">Professional creative production experience.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="date">1.5 Years</div>
+      <h3>Image Editor & Video Editor — BAPS Swaminarayan Chhatralay, Bhavnagar</h3>
+      <p>Audio/Video Department</p>
+      <ul>
+        <li>Created visuals for events, programs, posters, banners and social media.</li>
+        <li>Edited photographs using Adobe Photoshop, including retouching, compositing and color correction.</li>
+        <li>Created and refined AI-generated visuals based on creative requirements.</li>
+        <li>Edited event and promotional videos using DaVinci Resolve.</li>
+        <li>Worked with team members to deliver creative content on time.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+  <h2 class="section-title">Creative Work</h2>
+  <p class="section-sub">Selected categories that represent my creative capabilities. Add your actual project images to these cards when publishing the portfolio.</p>
+  <div class="grid">
+    <div class="card project"><div><span class="tag">AI Visuals</span><h3>AI Image Creation</h3><p>Concept-driven AI visuals, creative compositions, enhancement and image variations for digital content.</p></div><strong>AI • Creative • Visual</strong></div>
+    <div class="card project"><div><span class="tag">Photoshop</span><h3>Creative Image Editing</h3><p>Professional retouching, background replacement, compositing, color correction and poster-oriented design.</p></div><strong>Retouch • Design • Edit</strong></div>
+    <div class="card project"><div><span class="tag">DaVinci Resolve</span><h3>Video Production</h3><p>Event and promotional video editing with cuts, transitions, audio synchronization and color treatment.</p></div><strong>Video • Color • Story</strong></div>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+  <h2 class="section-title">Let’s Create Something Great</h2>
+  <p class="section-sub">Available for AI image creation, image editing, creative design and video-editing opportunities.</p>
+  <div class="contactbox">
+    <div class="contact-item"><small>Mobile</small><a href="tel:9429563541">9429563541</a></div>
+    <div class="contact-item"><small>Email</small><a href="mailto:barevadiyarushi@gmail.com">barevadiyarushi@gmail.com</a></div>
+    <div class="contact-item"><small>Location</small><span>Parshottam Nagar, Althan Bhatar, Surat</span></div>
+    <div class="contact-item"><small>Education</small><span>B.E. Information Technology — Currently Pursuing</span></div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer><div class="container">© 2026 Rushi Barevadiya • AI Image Creator • Image Editor • Video Editor</div></footer>
+</body>
+</html>
